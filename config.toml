@@ -1,8 +1,7 @@
 baseURL = "https://wawan.pro/"
-languageCode = "ru-RU"
+languageCode = "en-US"
 title = "Vladimir Kochergin"
 theme = "hello-friend-ng"
-googleAnalytics = "UA-117766088-1"
 
 [params] # theme parameters
     #homeSubtitle = "Vladimir Kochergin"
@@ -11,7 +10,7 @@ googleAnalytics = "UA-117766088-1"
     avatarurl = "https://avatars3.githubusercontent.com/u/1741716"
 
     # wether you want to hide copyright and credits in the footer
-    hideCredits = false
+    hideCredits = true
     hideCopyright = false
     defaultTheme = "dark"
 
@@ -29,12 +28,29 @@ googleAnalytics = "UA-117766088-1"
         url = "https://twitter.com/wawan_2030/"
     [[params.social]]
         name = "telegram"
-        url = "https://wawan.pro/telegram"
+        url = "https://t.me/free_proger"
+    [[params.social]]
+        name = "linkedin"
+        url = "https://www.linkedin.com/in/vladimir-kochergin/"
+    [[params.social]]
+        name = "youtube"
+        url = "https://www.youtube.com/@wawanPRO"
 
 [taxonomies]
     category = "posts"
     tag      = "tags"
     series   = "series"
+
+[languages]
+  [languages.en]
+    title = "Vladimir Kochergin"
+
+  [languages.en.params]
+    subtitle  = "Full-stack web-developer in PHP and Go. Freelancer"
+
+    [languages.en.params.logo]
+      logoText = "wawan.pro"
+      logoHomeLink = "/"
 
 # Menu links
 [[menu.main]]

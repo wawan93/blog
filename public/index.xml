@@ -1,53 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vladimir Kochergin</title>
-    <link>https://wawan.pro/</link>
-    <description>Recent content on Vladimir Kochergin</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ru-RU</language>
-    <lastBuildDate>Tue, 09 Jun 2020 20:30:17 +0300</lastBuildDate>
-    
-	<atom:link href="https://wawan.pro/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Личная ссылка на телеграм</title>
-      <link>https://wawan.pro/posts/telegram-link/</link>
-      <pubDate>Tue, 09 Jun 2020 20:30:17 +0300</pubDate>
-      
-      <guid>https://wawan.pro/posts/telegram-link/</guid>
-      <description>Как сделать себе ссылку на свой телеграм, чтобы она открывалась в России
-Например, моя ссылка https://wawan.pro/tg в России открывается, на ней загружаются скрипты, стили и картинки. Как это сделать?
-Создайте в корневой директории сайта папочку tg, внутри запустите wget:
-wget \  --page-requisites \  --adjust-extension \  --span-hosts \  --convert-links \  --restrict-file-names=windows \  --domains telesco.pe,t.me,telegram.org \  --no-parent \ https://t.me/wawan2030 Теперь в вашей директории должно быть что-то типа этого:</description>
-    </item>
-    
+    <title>My New Hugo Site</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 May 2018 01:43:36 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello, World!</title>
-      <link>https://wawan.pro/posts/hello-world/</link>
-      <pubDate>Fri, 01 Jun 2018 19:10:35 +0300</pubDate>
-      
-      <guid>https://wawan.pro/posts/hello-world/</guid>
-      <description>Привет, мир!
-Я решил завести свой блог и это его первый пост!
-Я буду писать сюда хотя бы раз в неделю о программировании, фрилансе, PHP и Go. Про политику постараюсь не писать)
-Многие пишут, что именно посты в блоге, выступления и обучение других помогают гораздо лучше структурировать свои знания и глубже понять то, о чем пишешь. Проверю эту гипотезу на практике.</description>
-    </item>
-    
-    <item>
-      <title>Hello, World!</title>
-      <link>https://wawan.pro/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Thu, 17 May 2018 01:43:36 +0300</pubDate>
-      
-      <guid>https://wawan.pro/about/</guid>
-      <description>My name is Kochergin Vladimir.
-I&amp;rsquo;m from Moscow, Russia.
-I have 5+ years of experience in web development using PHP, MySQL, Laravel, and other frameworks.
-Two years ago, I switched to Go, and I loved it!
-My latest commercial Go projects include Telegram chat-bots, APIs, and microservices within high-load systems. I&amp;rsquo;ve also developed a couple of open-source packages, which you can see in my Github profile.
-I would love to work at startups and create new and ambitious projects.</description>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;My name is Kochergin Vladimir.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m from &lt;em&gt;Moscow, Russia&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;I have 5+ years of experience in web development using PHP, MySQL, Laravel, and other frameworks.&lt;/p&gt;&#xA;&lt;p&gt;Two years ago, I switched to Go, and I loved it!&lt;/p&gt;&#xA;&lt;p&gt;My latest commercial Go projects include Telegram chat-bots, APIs, and microservices within high-load systems. I&amp;rsquo;ve also developed a couple of open-source packages, which you can see in my Github profile.&lt;/p&gt;&#xA;&lt;p&gt;I would love to work at startups and create new and ambitious projects.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
