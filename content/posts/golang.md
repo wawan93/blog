@@ -1,8 +1,12 @@
-+++
-date = '2025-01-16T18:20:36+01:00'
-draft = false
-title = 'Что такое Golang'
-+++
+---
+date: '2025-01-16T18:20:36+01:00'
+draft: false
+title: 'Что такое Golang'
+series:
+    - go-questions
+posts:
+    - Golang
+---
 
 # Golang
 

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vladimir Kochergin</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Vladimir Kochergin</description>
+    <title>Go-Questions on Vladimir Kochergin</title>
+    <link>http://localhost:1313/series/go-questions/</link>
+    <description>Recent content in Go-Questions on Vladimir Kochergin</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 16 Jan 2025 18:26:05 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/series/go-questions/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Недостатки Golang</title>
       <link>http://localhost:1313/posts/disadvantages-golang/</link>
@@ -42,13 +42,6 @@
       <pubDate>Thu, 16 Jan 2025 18:19:40 +0100</pubDate>
       <guid>http://localhost:1313/posts/go-questions/</guid>
       <description>&lt;h1 id=&#34;вопросы-с-собеседований-golang&#34;&gt;Вопросы с собеседований Golang&lt;/h1&gt;&#xA;http://localhost:1313/posts/golang/&#xA;http://localhost:1313/posts/advantages-golang/&#xA;http://localhost:1313/posts/disadvantages-golang/</description>
-    </item>
-    <item>
-      <title>Hello, World!</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Thu, 17 May 2018 01:43:36 +0300</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;My name is Kochergin Vladimir.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m from &lt;em&gt;Moscow, Russia&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;I have 5+ years of experience in web development using PHP, MySQL, Laravel, and other frameworks.&lt;/p&gt;&#xA;&lt;p&gt;Two years ago, I switched to Go, and I loved it!&lt;/p&gt;&#xA;&lt;p&gt;My latest commercial Go projects include Telegram chat-bots, APIs, and microservices within high-load systems. I&amp;rsquo;ve also developed a couple of open-source packages, which you can see in my Github profile.&lt;/p&gt;&#xA;&lt;p&gt;I would love to work at startups and create new and ambitious projects.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
