@@ -12,9 +12,9 @@ Golang [[Компилируемый язык программирования]] 
 
 Разработан в Google с целью повысить безопасность и скорость разработки.
 
-{{< ref "advantages-golang" >}}
+[Преимущества Go]({{< ref "advantages-golang" >}})
 
-{{< ref "disadvantages-golang" >}}
+[Недостатки Go]({{< ref "disadvantages-golang" >}})
 
 [[Is Go an object-oriented language]]
 
