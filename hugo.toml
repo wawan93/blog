@@ -1,5 +1,64 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-
+baseURL = "https://wawan.pro/"
+languageCode = "en-US"
+title = "Vladimir Kochergin"
 theme = "hello-friend-ng"
+
+[params] # theme parameters
+    #homeSubtitle = "Vladimir Kochergin"
+    homeSubtitle = "Full-stack web-developer in PHP and Go. Freelancer"
+    keywords = "blog,developer,programmer,upwork,personal,php,go,golang,freelance"
+    avatarurl = "https://avatars3.githubusercontent.com/u/1741716"
+
+    # wether you want to hide copyright and credits in the footer
+    hideCredits = true
+    hideCopyright = false
+    defaultTheme = "dark"
+
+    [params.logo]
+        logoText     = "wawan.pro"
+        logoHomeLink = "/"
+    [params.portrait]
+        path = "https://avatars3.githubusercontent.com/u/1741716"
+        alt = "Portrait"
+    [[params.social]]
+        name = "github"
+        url = "https://github.com/wawan93/"
+    [[params.social]]
+        name = "twitter"
+        url = "https://twitter.com/wawan_2030/"
+    [[params.social]]
+        name = "telegram"
+        url = "https://t.me/free_proger"
+    [[params.social]]
+        name = "linkedin"
+        url = "https://www.linkedin.com/in/vladimir-kochergin/"
+    [[params.social]]
+        name = "youtube"
+        url = "https://www.youtube.com/@wawanPRO"
+
+[taxonomies]
+    category = "posts"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    title = "Vladimir Kochergin"
+
+  [languages.en.params]
+    subtitle  = "Full-stack web-developer in PHP and Go. Freelancer"
+
+    [languages.en.params.logo]
+      logoText = "wawan.pro"
+      logoHomeLink = "/"
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about/"
+
