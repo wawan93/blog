@@ -8,10 +8,8 @@ posts:
     - Golang
 ---
 
-# Вопросы с собеседований Golang
+[Что такое Golang?]({{< ref "golang" >}})
 
-{{< ref "golang" >}}
+[Преимущества Go]({{< ref "advantages-golang" >}})
 
-{{< ref "advantages-golang" >}}
-
-{{< ref "disadvantages-golang" >}}
+[Недостатки Go]({{< ref "disadvantages-golang" >}})

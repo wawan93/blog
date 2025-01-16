@@ -8,4 +8,4 @@ posts:
     - Golang
 ---
 
-{{< ref "easy-syntax-golang" >}}
+[Простой синтаксис]({{< ref "easy-syntax-golang" >}})

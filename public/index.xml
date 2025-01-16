@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vladimir Kochergin</title>
-    <link>http://localhost:1313/</link>
+    <link>https://wawan.pro/</link>
     <description>Recent content on Vladimir Kochergin</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 16 Jan 2025 18:26:05 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://wawan.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Недостатки Golang</title>
-      <link>http://localhost:1313/posts/disadvantages-golang/</link>
+      <link>https://wawan.pro/posts/disadvantages-golang/</link>
       <pubDate>Thu, 16 Jan 2025 18:26:05 +0100</pubDate>
-      <guid>http://localhost:1313/posts/disadvantages-golang/</guid>
+      <guid>https://wawan.pro/posts/disadvantages-golang/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;Куча бойлерплейта &lt;code&gt;if err != nil&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;GC, всё ещё делает Stop the world&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Преимущества Golang</title>
-      <link>http://localhost:1313/posts/advantages-golang/</link>
+      <link>https://wawan.pro/posts/advantages-golang/</link>
       <pubDate>Thu, 16 Jan 2025 18:22:25 +0100</pubDate>
-      <guid>http://localhost:1313/posts/advantages-golang/</guid>
-      <description>http://localhost:1313/posts/easy-syntax-golang/</description>
+      <guid>https://wawan.pro/posts/advantages-golang/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://wawan.pro/posts/easy-syntax-golang/&#34;&gt;Простой синтаксис&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Простой синтаксис Golang</title>
-      <link>http://localhost:1313/posts/easy-syntax-golang/</link>
+      <link>https://wawan.pro/posts/easy-syntax-golang/</link>
       <pubDate>Thu, 16 Jan 2025 18:21:53 +0100</pubDate>
-      <guid>http://localhost:1313/posts/easy-syntax-golang/</guid>
+      <guid>https://wawan.pro/posts/easy-syntax-golang/</guid>
       <description>&lt;p&gt;Синтаксис го намеренно сделан очень простым, с самым минимальным необходимым набором ключевых слов и конструкций.&lt;/p&gt;&#xA;&lt;p&gt;Одним из важных требований к языку была ортогональность: каждая конструкция языка должна выполнять одну свою функцию и не должна повторять функции друг друга. Благодаря этому&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;код проще читать и понимать,&lt;/li&gt;&#xA;&lt;li&gt;код быстрее компилируется&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Отказ от исключений в пользу возвращения ошибок хоть и делает код сильно более нагроможденным, но зато позволяет явно и четко видеть весь флоу, не гадая, в каком именно месте и почему могло возникнуть исключение.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Что такое Golang</title>
-      <link>http://localhost:1313/posts/golang/</link>
+      <link>https://wawan.pro/posts/golang/</link>
       <pubDate>Thu, 16 Jan 2025 18:20:36 +0100</pubDate>
-      <guid>http://localhost:1313/posts/golang/</guid>
-      <description>&lt;h1 id=&#34;golang&#34;&gt;Golang&lt;/h1&gt;&#xA;&lt;p&gt;Golang [[Компилируемый язык программирования]] со [[строгая типизация|строгой]], [[статическая типизация|статической]] типизацией, [[Многопоточность|многопоточностью]] и [[Garbage collector|Garbage collector-ом]]&lt;/p&gt;&#xA;&lt;p&gt;Разработан в Google с целью повысить безопасность и скорость разработки.&lt;/p&gt;&#xA;http://localhost:1313/posts/advantages-golang/&#xA;http://localhost:1313/posts/disadvantages-golang/&#xA;&lt;p&gt;[[Is Go an object-oriented language]]&lt;/p&gt;</description>
+      <guid>https://wawan.pro/posts/golang/</guid>
+      <description>&lt;p&gt;Golang [[Компилируемый язык программирования]] со [[строгая типизация|строгой]], [[статическая типизация|статической]] типизацией, [[Многопоточность|многопоточностью]] и [[Garbage collector|Garbage collector-ом]]&lt;/p&gt;&#xA;&lt;p&gt;Разработан в Google с целью повысить безопасность и скорость разработки.&lt;/p&gt;&#xA;https://wawan.pro/posts/advantages-golang/&#xA;https://wawan.pro/posts/disadvantages-golang/&#xA;&lt;p&gt;[[Is Go an object-oriented language]]&lt;/p&gt;</description>
     </item>
     <item>
       <title>Вопросы с собеседований Golang</title>
-      <link>http://localhost:1313/posts/go-questions/</link>
+      <link>https://wawan.pro/posts/go-questions/</link>
       <pubDate>Thu, 16 Jan 2025 18:19:40 +0100</pubDate>
-      <guid>http://localhost:1313/posts/go-questions/</guid>
-      <description>&lt;h1 id=&#34;вопросы-с-собеседований-golang&#34;&gt;Вопросы с собеседований Golang&lt;/h1&gt;&#xA;http://localhost:1313/posts/golang/&#xA;http://localhost:1313/posts/advantages-golang/&#xA;http://localhost:1313/posts/disadvantages-golang/</description>
+      <guid>https://wawan.pro/posts/go-questions/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://wawan.pro/posts/golang/&#34;&gt;Что такое Golang?&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://wawan.pro/posts/advantages-golang/&#34;&gt;Преимущества Go&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://wawan.pro/posts/disadvantages-golang/&#34;&gt;Недостатки Go&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hello, World!</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://wawan.pro/about/</link>
       <pubDate>Thu, 17 May 2018 01:43:36 +0300</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://wawan.pro/about/</guid>
       <description>&lt;p&gt;My name is Kochergin Vladimir.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m from &lt;em&gt;Moscow, Russia&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;I have 5+ years of experience in web development using PHP, MySQL, Laravel, and other frameworks.&lt;/p&gt;&#xA;&lt;p&gt;Two years ago, I switched to Go, and I loved it!&lt;/p&gt;&#xA;&lt;p&gt;My latest commercial Go projects include Telegram chat-bots, APIs, and microservices within high-load systems. I&amp;rsquo;ve also developed a couple of open-source packages, which you can see in my Github profile.&lt;/p&gt;&#xA;&lt;p&gt;I would love to work at startups and create new and ambitious projects.&lt;/p&gt;</description>
     </item>
   </channel>
