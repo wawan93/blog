@@ -2,14 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://wawan.pro/posts/</loc>
+    <lastmod>2025-01-16T18:26:05+01:00</lastmod>
+  </url><url>
+    <loc>https://wawan.pro/</loc>
+    <lastmod>2025-01-16T18:26:05+01:00</lastmod>
+  </url><url>
+    <loc>https://wawan.pro/posts/golang/</loc>
+    <lastmod>2025-01-16T18:20:36+01:00</lastmod>
+  </url><url>
+    <loc>https://wawan.pro/about/</loc>
     <lastmod>2018-05-17T01:43:36+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2018-05-17T01:43:36+03:00</lastmod>
+    <loc>https://wawan.pro/series/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://wawan.pro/tags/</loc>
   </url>
 </urlset>

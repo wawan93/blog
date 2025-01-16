@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Vladimir Kochergin</title>
+    <link>https://wawan.pro/</link>
+    <description>Recent content on Vladimir Kochergin</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 17 May 2018 01:43:36 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Thu, 16 Jan 2025 18:20:36 +0100</lastBuildDate>
+    <atom:link href="https://wawan.pro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Что такое Golang</title>
+      <link>https://wawan.pro/posts/golang/</link>
+      <pubDate>Thu, 16 Jan 2025 18:20:36 +0100</pubDate>
+      <guid>https://wawan.pro/posts/golang/</guid>
+      <description>&lt;h1 id=&#34;golang&#34;&gt;Golang&lt;/h1&gt;&#xA;&lt;p&gt;Golang [[Компилируемый язык программирования]] со [[строгая типизация|строгой]], [[статическая типизация|статической]] типизацией, [[Многопоточность|многопоточностью]] и [[Garbage collector|Garbage collector-ом]]&lt;/p&gt;&#xA;&lt;p&gt;Разработан в Google с целью повысить безопасность и скорость разработки.&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;[[Is Go an object-oriented language]]&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Hello, World!</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://wawan.pro/about/</link>
       <pubDate>Thu, 17 May 2018 01:43:36 +0300</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://wawan.pro/about/</guid>
       <description>&lt;p&gt;My name is Kochergin Vladimir.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m from &lt;em&gt;Moscow, Russia&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;I have 5+ years of experience in web development using PHP, MySQL, Laravel, and other frameworks.&lt;/p&gt;&#xA;&lt;p&gt;Two years ago, I switched to Go, and I loved it!&lt;/p&gt;&#xA;&lt;p&gt;My latest commercial Go projects include Telegram chat-bots, APIs, and microservices within high-load systems. I&amp;rsquo;ve also developed a couple of open-source packages, which you can see in my Github profile.&lt;/p&gt;&#xA;&lt;p&gt;I would love to work at startups and create new and ambitious projects.&lt;/p&gt;</description>
     </item>
   </channel>
