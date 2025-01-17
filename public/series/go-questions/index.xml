@@ -34,7 +34,7 @@
       <link>https://wawan.pro/posts/golang/</link>
       <pubDate>Thu, 16 Jan 2025 18:20:36 +0100</pubDate>
       <guid>https://wawan.pro/posts/golang/</guid>
-      <description>&lt;p&gt;Golang [[Компилируемый язык программирования]] со [[строгая типизация|строгой]], [[статическая типизация|статической]] типизацией, [[Многопоточность|многопоточностью]] и [[Garbage collector|Garbage collector-ом]]&lt;/p&gt;&#xA;&lt;p&gt;Разработан в Google с целью повысить безопасность и скорость разработки.&lt;/p&gt;&#xA;https://wawan.pro/posts/advantages-golang/&#xA;https://wawan.pro/posts/disadvantages-golang/&#xA;&lt;p&gt;[[Is Go an object-oriented language]]&lt;/p&gt;</description>
+      <description>&lt;p&gt;Golang [[Компилируемый язык программирования]] со [[строгая типизация|строгой]], [[статическая типизация|статической]] типизацией, [[Многопоточность|многопоточностью]] и [[Garbage collector|Garbage collector-ом]]&lt;/p&gt;&#xA;&lt;p&gt;Разработан в Google с целью повысить безопасность и скорость разработки.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://wawan.pro/posts/advantages-golang/&#34;&gt;Преимущества Go&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://wawan.pro/posts/disadvantages-golang/&#34;&gt;Недостатки Go&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;[[Is Go an object-oriented language]]&lt;/p&gt;</description>
     </item>
     <item>
       <title>Вопросы с собеседований Golang</title>
