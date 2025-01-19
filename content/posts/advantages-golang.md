@@ -6,8 +6,9 @@ series:
   - go-questions
 tags:
   - programming
-categories:
+posts:
   - programming
+lang: en-US
 ---
 
 [Простой синтаксис]({{< ref "easy-syntax-golang" >}})

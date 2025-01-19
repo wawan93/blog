@@ -5,8 +5,6 @@ title: 'Private strings in Golang'
 lang: en-US
 tags:
   - programming
-categories:
-  - programming
 posts:
   - programming
 ---

@@ -6,7 +6,7 @@ series:
   - go-questions
 tags:
   - programming
-categories:
+posts:
   - programming
 ---
 
