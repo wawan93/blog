@@ -7,6 +7,8 @@ tags:
   - programming
 categories:
   - programming
+posts:
+  - programming
 ---
 
 Why you should use private string types in Go programming language:

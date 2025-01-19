@@ -1,52 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Programming on Vladimir Kochergin</title>
-        <link>https://wawan.pro/posts/programming/</link>
-        <description>Recent content in Programming on Vladimir Kochergin</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>ru-RU</language>
-        <lastBuildDate>Tue, 09 Jun 2020 20:30:17 +0300</lastBuildDate>
-        <atom:link href="https://wawan.pro/posts/programming/index.xml" rel="self" type="application/rss+xml" />
-        
-        <item>
-            <title>Личная ссылка на телеграм</title>
-            <link>https://wawan.pro/posts/telegram-link/</link>
-            <pubDate>Tue, 09 Jun 2020 20:30:17 +0300</pubDate>
-            
-            <guid>https://wawan.pro/posts/telegram-link/</guid>
-            <description>Как сделать себе ссылку на свой телеграм, чтобы она открывалась в России
-Например, моя ссылка https://wawan.pro/tg в России открывается, на ней загружаются скрипты, стили и картинки. Как это сделать?
-Создайте в корневой директории сайта папочку tg, внутри запустите wget:
-wget \  --page-requisites \  --adjust-extension \  --span-hosts \  --convert-links \  --restrict-file-names=windows \  --domains telesco.pe,t.me,telegram.org \  --no-parent \ https://t.me/wawan2030 Теперь в вашей директории должно быть что-то типа этого:</description>
-            <content type="html"><![CDATA[<p>Как сделать себе ссылку на свой телеграм, чтобы она открывалась в России</p>
-<p>Например, моя ссылка <a href="https://wawan.pro/tg">https://wawan.pro/tg</a> в России открывается, на ней загружаются скрипты, стили и картинки. Как это сделать?</p>
-<p>Создайте в корневой директории сайта папочку tg, внутри запустите <code>wget</code>:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">wget <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span> --page-requisites <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span> --adjust-extension <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span> --span-hosts <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span> --convert-links <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span> --restrict-file-names<span style="color:#f92672">=</span>windows <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span> --domains telesco.pe,t.me,telegram.org <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span> --no-parent <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>https://t.me/wawan2030
-</code></pre></div><p>Теперь в вашей директории должно быть что-то типа этого:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">.
-├── cdn4.telesco.pe
-│   └── file
-├── t.me
-│   └── wawan2030.html
-└── telegram.org
-    ├── css
-    ├── favicon.ico@3
-    └── img
-</code></pre></div><p>Теперь можно скопировать t.me/wawan2030.html в вашу папочку tg</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mv t.me/wawan2030.html ./index.html
-</code></pre></div><p>Заменить все пути в этом файле с <code>../</code> на <code>./</code> командой</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sed -i <span style="color:#e6db74">&#39;&#39;</span> <span style="color:#e6db74">&#39;s/\.\.\//\.\//g&#39;</span> ./index.html
-</code></pre></div><p>Всё.</p>
-]]></content>
-        </item>
-        
-    </channel>
+  <channel>
+    <title>Programming on Vladimir Kochergin</title>
+    <link>https://wawan.pro/posts/programming/</link>
+    <description>Recent content in Programming on Vladimir Kochergin</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 16 Jan 2025 18:19:40 +0100</lastBuildDate>
+    <atom:link href="https://wawan.pro/posts/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Private strings in Golang</title>
+      <link>https://wawan.pro/posts/private-strings/</link>
+      <pubDate>Thu, 16 Jan 2025 18:19:40 +0100</pubDate>
+      <guid>https://wawan.pro/posts/private-strings/</guid>
+      <description>&lt;p&gt;Why you should use private string types in Go programming language:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;package&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;db&lt;/span&gt;  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;type&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;privateString&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt;  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;type&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;DB&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;struct&lt;/span&gt;{}  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;db&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;DB&lt;/span&gt;) &lt;span style=&#34;color:#a6e22e&#34;&gt;Query&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;query&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;privateString&lt;/span&gt;) {  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   print(&lt;span style=&#34;color:#a6e22e&#34;&gt;query&lt;/span&gt;)  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can only pass string literal into this &lt;code&gt;Query&lt;/code&gt; method.&#xA;It prevents you from passing user&amp;rsquo;s input here:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;package&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; (  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;wawan/gotest/pkg/db&amp;#34;&lt;/span&gt;  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;)  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;() {  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#a6e22e&#34;&gt;conn&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;db&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;DB&lt;/span&gt;{}  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#75715e&#34;&gt;// this works  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;   &lt;span style=&#34;color:#a6e22e&#34;&gt;conn&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Query&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;`SELECT * FROM users`&lt;/span&gt;)  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#a6e22e&#34;&gt;userID&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;4939c773-78ef-4eb8-aa8d-6fcc7e3521e8&amp;#34;&lt;/span&gt;  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&lt;span style=&#34;color:#75715e&#34;&gt;// error: cannot use `SELECT * FROM users WHERE user_id=&amp;#34;` + userID + `&amp;#34;`  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&#x9;&lt;span style=&#34;color:#75715e&#34;&gt;// (value of type string) as type db.privateString in argument to conn.Query&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;   &lt;span style=&#34;color:#a6e22e&#34;&gt;conn&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Query&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;`SELECT * FROM users WHERE user_id=&amp;#34;`&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;userID&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;`&amp;#34;`&lt;/span&gt;)  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can also use private string types to pass only pre-defined constants inside your functions&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

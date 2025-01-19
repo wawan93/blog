@@ -6,13 +6,49 @@
     <description>Recent content in Programming on Vladimir Kochergin</description>
     <generator>Hugo</generator>
     <language>en</language>
+    <lastBuildDate>Thu, 16 Jan 2025 18:26:05 +0100</lastBuildDate>
     <atom:link href="https://wawan.pro/tags/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>https://wawan.pro/posts/programming/private-strings/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://wawan.pro/posts/programming/private-strings/</guid>
+      <title>Недостатки Golang</title>
+      <link>https://wawan.pro/posts/disadvantages-golang/</link>
+      <pubDate>Thu, 16 Jan 2025 18:26:05 +0100</pubDate>
+      <guid>https://wawan.pro/posts/disadvantages-golang/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;Куча бойлерплейта &lt;code&gt;if err != nil&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;GC, всё ещё делает Stop the world&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Преимущества Golang</title>
+      <link>https://wawan.pro/posts/advantages-golang/</link>
+      <pubDate>Thu, 16 Jan 2025 18:22:25 +0100</pubDate>
+      <guid>https://wawan.pro/posts/advantages-golang/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://wawan.pro/posts/easy-syntax-golang/&#34;&gt;Простой синтаксис&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Простой синтаксис Golang</title>
+      <link>https://wawan.pro/posts/easy-syntax-golang/</link>
+      <pubDate>Thu, 16 Jan 2025 18:21:53 +0100</pubDate>
+      <guid>https://wawan.pro/posts/easy-syntax-golang/</guid>
+      <description>&lt;p&gt;Синтаксис го намеренно сделан очень простым, с самым минимальным необходимым набором ключевых слов и конструкций.&lt;/p&gt;&#xA;&lt;p&gt;Одним из важных требований к языку была ортогональность: каждая конструкция языка должна выполнять одну свою функцию и не должна повторять функции друг друга. Благодаря этому&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;код проще читать и понимать,&lt;/li&gt;&#xA;&lt;li&gt;код быстрее компилируется&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Отказ от исключений в пользу возвращения ошибок хоть и делает код сильно более нагроможденным, но зато позволяет явно и четко видеть весь флоу, не гадая, в каком именно месте и почему могло возникнуть исключение.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Что такое Golang</title>
+      <link>https://wawan.pro/posts/golang/</link>
+      <pubDate>Thu, 16 Jan 2025 18:20:36 +0100</pubDate>
+      <guid>https://wawan.pro/posts/golang/</guid>
+      <description>&lt;p&gt;Golang [[Компилируемый язык программирования]] со [[строгая типизация|строгой]], [[статическая типизация|статической]] типизацией, [[Многопоточность|многопоточностью]] и [[Garbage collector|Garbage collector-ом]]&lt;/p&gt;&#xA;&lt;p&gt;Разработан в Google с целью повысить безопасность и скорость разработки.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://wawan.pro/posts/advantages-golang/&#34;&gt;Преимущества Go&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://wawan.pro/posts/disadvantages-golang/&#34;&gt;Недостатки Go&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;[[Is Go an object-oriented language]]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Private strings in Golang</title>
+      <link>https://wawan.pro/posts/private-strings/</link>
+      <pubDate>Thu, 16 Jan 2025 18:19:40 +0100</pubDate>
+      <guid>https://wawan.pro/posts/private-strings/</guid>
       <description>&lt;p&gt;Why you should use private string types in Go programming language:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;package&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;db&lt;/span&gt;  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;type&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;privateString&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt;  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;type&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;DB&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;struct&lt;/span&gt;{}  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;db&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;DB&lt;/span&gt;) &lt;span style=&#34;color:#a6e22e&#34;&gt;Query&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;query&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;privateString&lt;/span&gt;) {  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   print(&lt;span style=&#34;color:#a6e22e&#34;&gt;query&lt;/span&gt;)  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can only pass string literal into this &lt;code&gt;Query&lt;/code&gt; method.&#xA;It prevents you from passing user&amp;rsquo;s input here:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;package&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; (  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;wawan/gotest/pkg/db&amp;#34;&lt;/span&gt;  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;)  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;() {  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#a6e22e&#34;&gt;conn&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;db&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;DB&lt;/span&gt;{}  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#75715e&#34;&gt;// this works  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;   &lt;span style=&#34;color:#a6e22e&#34;&gt;conn&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Query&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;`SELECT * FROM users`&lt;/span&gt;)  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#a6e22e&#34;&gt;userID&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;4939c773-78ef-4eb8-aa8d-6fcc7e3521e8&amp;#34;&lt;/span&gt;  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&lt;span style=&#34;color:#75715e&#34;&gt;// error: cannot use `SELECT * FROM users WHERE user_id=&amp;#34;` + userID + `&amp;#34;`  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&#x9;&lt;span style=&#34;color:#75715e&#34;&gt;// (value of type string) as type db.privateString in argument to conn.Query&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;   &lt;span style=&#34;color:#a6e22e&#34;&gt;conn&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Query&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;`SELECT * FROM users WHERE user_id=&amp;#34;`&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;userID&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;`&amp;#34;`&lt;/span&gt;)  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can also use private string types to pass only pre-defined constants inside your functions&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Вопросы с собеседований Golang</title>
+      <link>https://wawan.pro/posts/go-questions/</link>
+      <pubDate>Thu, 16 Jan 2025 18:19:40 +0100</pubDate>
+      <guid>https://wawan.pro/posts/go-questions/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://wawan.pro/posts/golang/&#34;&gt;Что такое Golang?&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://wawan.pro/posts/advantages-golang/&#34;&gt;Преимущества Go&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://wawan.pro/posts/disadvantages-golang/&#34;&gt;Недостатки Go&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

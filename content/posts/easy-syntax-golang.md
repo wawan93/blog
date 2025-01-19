@@ -3,9 +3,11 @@ date: '2025-01-16T18:21:53+01:00'
 draft: false
 title: 'Простой синтаксис Golang'
 series:
-    - go-questions
-posts:
-    - Golang
+  - go-questions
+tags:
+  - programming
+categories:
+  - programming
 ---
 
 Синтаксис го намеренно сделан очень простым, с самым минимальным необходимым набором ключевых слов и конструкций.

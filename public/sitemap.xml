@@ -8,7 +8,13 @@
     <loc>https://wawan.pro/posts/</loc>
     <lastmod>2025-01-16T18:26:05+01:00</lastmod>
   </url><url>
+    <loc>https://wawan.pro/tags/programming/</loc>
+    <lastmod>2025-01-16T18:26:05+01:00</lastmod>
+  </url><url>
     <loc>https://wawan.pro/series/</loc>
+    <lastmod>2025-01-16T18:26:05+01:00</lastmod>
+  </url><url>
+    <loc>https://wawan.pro/tags/</loc>
     <lastmod>2025-01-16T18:26:05+01:00</lastmod>
   </url><url>
     <loc>https://wawan.pro/</loc>
@@ -26,16 +32,16 @@
     <loc>https://wawan.pro/posts/golang/</loc>
     <lastmod>2025-01-16T18:20:36+01:00</lastmod>
   </url><url>
+    <loc>https://wawan.pro/posts/private-strings/</loc>
+    <lastmod>2025-01-16T18:19:40+01:00</lastmod>
+  </url><url>
+    <loc>https://wawan.pro/posts/programming/</loc>
+    <lastmod>2025-01-16T18:19:40+01:00</lastmod>
+  </url><url>
     <loc>https://wawan.pro/posts/go-questions/</loc>
     <lastmod>2025-01-16T18:19:40+01:00</lastmod>
   </url><url>
     <loc>https://wawan.pro/about/</loc>
     <lastmod>2018-05-17T01:43:36+03:00</lastmod>
-  </url><url>
-    <loc>https://wawan.pro/posts/programming/private-strings/</loc>
-  </url><url>
-    <loc>https://wawan.pro/tags/programming/</loc>
-  </url><url>
-    <loc>https://wawan.pro/tags/</loc>
   </url>
 </urlset>
